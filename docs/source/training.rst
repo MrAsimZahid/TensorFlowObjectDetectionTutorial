@@ -299,7 +299,7 @@ Create Label Map
 
 TensorFlow requires a label map, which namely maps each of the used labels to an integer values. This label map is used both by the training and detection processes.
 
-Below we show an example label map (e.g ``label_map.pbtxt``), assuming that our dataset containes 2 labels, ``dogs`` and ``cats``:
+Below we show an example label map (e.g ``label_map.pbtxt``), assuming that our dataset contains 2 labels, ``dogs`` and ``cats``:
 
 .. code-block:: default
 
@@ -313,7 +313,7 @@ Below we show an example label map (e.g ``label_map.pbtxt``), assuming that our 
         name: 'dog'
     }
 
-Label map files have the extention ``.pbtxt`` and should be placed inside the ``training_demo/annotations`` folder.
+Label map files have the extension ``.pbtxt`` and should be placed inside the ``training_demo/annotations`` folder.
 
 Create TensorFlow Records
 *************************
